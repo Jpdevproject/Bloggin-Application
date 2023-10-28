@@ -17,7 +17,8 @@ public class CategoriesController {
 
     @PostMapping
     public CategoriesEntity createCategory(@RequestBody Categories categories){
-        return categoriesService.createCategories(categories).orElse(null);
+        return categoriesService.createCategories(categories)
+                .orElse(null);
     }
 
     @PutMapping ("/{id}")

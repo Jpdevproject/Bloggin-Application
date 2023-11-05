@@ -1,8 +1,8 @@
 package com.codewithjyoti.blog.entities;
 
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "Categories")
